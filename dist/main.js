@@ -1,3 +1,7 @@
+
+
+
+
 const searchBtn=document.getElementById('search-btn');
 const searchBar=document.querySelector('.search-bar-container');
 
@@ -49,3 +53,8 @@ videoBtn.forEach(btn=>{
         document.querySelector('#video-slider').src=src;
     })
 })
+
+// 
+
+
+//window.location.replace("index.html");
