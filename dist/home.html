@@ -38,7 +38,7 @@
 
  <div class="login-form-container">
     <i class="fas fa-times" id="form-close"></i>
-    <form action="">
+    <form action="" >
         <h3>Login</h3>
         <input type="email" class="box" placeholder="Enter your Email">
         <input type="password" class="box" placeholder="Enter your Password">
@@ -100,24 +100,24 @@
     <div class="img">
         <img src="img/hotel.jpg" alt="" >
     </div>
-    <form action=""> 
+    <form action="" class="books"> 
         <div class="inputBox">
             <h3>Where to</h3>
-            <input type="text" placeholder="Place Name">
+            <input type="text" placeholder="Place Name" name="where" id="where">
         </div>
         <div class="inputBox">
             <h3>How many</h3>
-            <input type="number" placeholder="Number of guests">
+            <input type="number" placeholder="Number of guests" name="nguest" id="nguest">
         </div>
         <div class="inputBox">
             <h3>Arivals</h3>
-            <input type="date">
+            <input type="date" name="arival" id="arival">
         </div>
         <div class="inputBox">
             <h3>Leaving</h3>
-            <input type="date">
+            <input type="date" name="leaving" id="leaving">
         </div>
-        <input type="submit" class="btn"  value="Book now">
+       <button class="btn" >Book now</button>
         
     </form> 
 </div>
@@ -255,7 +255,7 @@
 </div>
 
 </section>
-
-    <script src="main.js"></script>
+<script type="module" src="home.js"></script>
+    <!-- <script src="main.js"></script> -->
 </body>
 </html>
